@@ -1,0 +1,202 @@
+        /* ძირითადი */
+body {
+    margin: 15px;
+    background-color: #1EA896;
+}
+        /* კლასები */
+
+.mainmanuicons {
+    border-radius: 10px;
+    width: 40px;
+    display: inline-flex;
+    position: absolute; 
+    top: 20px;
+}
+.white {
+    color: white;
+}
+        /* ID */
+
+#menuicon {
+    visibility: hidden;
+    width: 40px;
+    z-index: 999999;
+    position: absolute;
+    top: 40px;
+    left: 370px;
+    background-color: rgb(58, 52, 52);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+#menuicon:hover {
+    padding-top: 40px;
+    padding-left: 370px;
+    padding-right: 100%;
+    padding-bottom: 375px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+#menuragaceebi {
+    visibility: hidden;
+}
+#logo {
+    width: 60px;
+    left: 40px;
+    border-radius: 10px;
+    display: inline-flex;
+    position: absolute; 
+    top: 25px;
+}
+#filmebiicon {
+    left: 400px;
+    top: 25px;
+}
+#forkids {
+    left: 550px;
+    top: 25px;
+}
+#series {
+    left: 700px;
+    top: 25px;
+}
+#koleqciebi {
+    left: 850px;
+    top: 25px;
+}
+#searchbar {
+    display: flex;
+    height: 25px;
+    position: absolute;
+    top: 70px;
+    left: 1150px;
+    border-radius: 100px;
+    border-color: black;
+    text-align: center;
+    font-size: 13px;
+}
+#searchbar1 {
+    display: flex;
+    height: 25px;
+    position: absolute;
+    top: 33px;
+    left: 1150px;
+    border-radius: 100px;
+    border-color: black;
+    text-align: center;
+    font-size: 13px;
+}
+#searchbaricon {
+    height: 30px;
+    display: flex;
+    position: absolute;
+    top: 33px;
+    left: 1100px;
+}
+#searchbariconffsk {
+    height: 30px;
+    display: flex;
+    position: absolute;
+    top: 33px; 
+    left: 1050px;
+}
+#header_background-color {
+    background-color: rgb(121, 106, 78);
+    color: wheat;
+    padding: 200pxpx;
+    height: 150px;
+}
+#fi, #ai, #si, #ki {
+    border-radius: 10px;
+    width: 40px;
+    display: inline-flex;
+    position: absolute; 
+    top: 20px;
+    z-index: 9999999999999999999;
+}
+#check {
+    visibility: visible;
+    z-index: -9999;
+    position: absolute;
+}
+@media screen and (max-width: 768px) {
+    #menuragaceebi {
+        visibility: hidden;
+    }
+    #menuragaceebi:hover {
+        visibility: visible;
+        z-index: 99999999999999999999999999;
+    }
+    #fi, #ai, #si, #ki {
+        border-radius: 10px;
+        width: 40px;
+        display: inline-flex;
+        position: absolute; 
+        top: 20px;
+        z-index: 9999999999999999999;
+    }
+    #fi {
+        top: 150px;
+        left: 50px;
+    }
+    #menuragaceebi {
+        z-index: 99999999999999;
+    }
+    #menuicon {
+        visibility: visible;
+    }
+
+    .mainmanuicons {
+        visibility: hidden;
+        left: 1px;
+    }
+    .white {
+        color: white;
+    }
+            /* ID */ 
+    
+    #logo {
+        margin-left: 10pxpx;
+        border-radius: 1px;
+        display: inline-flex;
+        position: absolute; 
+        top: 20px;
+        width: 60px;
+        
+    }
+    #filmebiicon {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #forkids {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #series {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #koleqciebi {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #searchbar {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #searchbaricon {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #searchbariconffsk {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+}

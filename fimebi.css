@@ -1,0 +1,10 @@
+img {
+    margin: 40px;
+} 
+#movieImg2filmebi {
+    position: absolute;
+    top: 164px;
+    height: 275px;
+    z-index: 99999;
+    width: 183px;
+}

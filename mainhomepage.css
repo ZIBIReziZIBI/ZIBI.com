@@ -1,0 +1,158 @@
+/* main */
+body {
+    padding-right: 20px;
+}
+.searchbariconffsk {
+    border-radius: 40px;
+    left: 1140px;
+    
+}
+.movieImg {
+    margin: 40px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    z-index: 9000;
+}
+.movieImg2 {
+    position: absolute;
+    left: 223px;
+    top: 164px;
+    height: 275px;
+    z-index: 99999;
+    width: 183px;
+}
+.selectordezain {
+    color: rgb(204, 62, 6);
+    font-size: 2em;
+    padding: 12px;
+    background-color: bisque;
+    border-radius: 10px;
+    left: 40px;
+    z-index: 11;
+}
+.movieImg3 {
+    left: 430px;
+}
+.movieImg5 {
+    left: 637px;
+}
+.movieImg6 {
+    left: 844px;
+}
+.metnakleboba {
+    width: 25px;
+    border-radius: 20%;
+}
+/* ID */
+#marvelisfilmebi {
+    position: relative; 
+    top: 130px;
+    z-index: 11;
+}
+#for_kids {
+    position: absolute;
+    top: 510px;
+    z-index: 11;
+}
+#marvelismena {
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    visibility: hidden;
+}
+#zviada {
+    position: absolute;
+    left: 1051px;
+}
+#check {
+    visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding: -700px;
+    }
+
+    #vaza, #viza {
+        top: 500px;
+    }
+    #viza {
+        left: 183px;
+    }
+    #vaza {
+        left: -15px;
+    }
+    #marvelismena {
+        visibility: visible;
+    }
+    #anim {
+        top: 400px;
+    }
+
+    /* main */
+    .movieImg {
+        margin: 40px;
+        position: relative;
+        top: 40px;
+        border-radius: 10px;
+        z-index: 9000;
+        left: -35px;
+    }
+    .movieImg2 {
+        position: absolute;
+        left: 188px;
+        top: 164px;
+        height: 275px;
+        z-index: 99999;
+
+        max-width: 183px;
+        width: 100%;
+        
+    }
+    .selectordezain {
+        color: rgb(204, 62, 6);
+        font-size: 2em;
+        padding: 12px;
+        background-color: bisque;
+        border-radius: 10px;
+        left: 10px;
+    }
+    .movieImg3 {
+        left: 395px;
+    }
+    .movieImg5 {
+        left: 602px;
+    }
+    .movieImg6 {
+        left: 809px;
+    }
+    .metnakleboba {
+        width: 25px;
+        border-radius: 20%;
+        visibility: hidden;
+    }
+    /* ID */
+    #marvelisfilmebi {
+        position: relative; 
+        top: 130px;
+        left: 10px;
+    }
+    #for_kids {
+        position: absolute;
+        top: 850px;
+        left: 10px;
+    }
+    #marvelismena {
+        position: absolute;
+        top: 160px;
+        left: 365px;
+        visibility: hidden;
+    }
+    #smitsv {
+        position: absolute;
+        left: 1px;
+        visibility: hidden;
+        z-index: -999;
+    }
+
+}

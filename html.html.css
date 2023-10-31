@@ -1,0 +1,109 @@
+#con, .sidebar, .sidebar header, .sidebar ul a, ul li:hover a, .sidebar ul a i, #check, label #btn, label #cancel, #check:checked ~ .sidebar, #check:checked ~ label #cancel {
+    position: absolute;
+    z-index: -9999999999999999999999999999999;
+    visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+    #con {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    .sidebar {
+        position: fixed;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background: #061f2c;
+        transition: all 0.5s ease;
+        top: 0;
+    }
+    .sidebar header {
+        width: 250px;
+        color: white;
+        text-align: center;
+        line-height: 70px;
+        background-color: #063146;
+        user-select: none;
+        font-size: 50px;
+    }
+    .sidebar ul a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: white;
+        padding-left: 40px;
+        box-sizing: border-box;
+        transition: 0.4s;
+        text-decoration: none;
+    }
+    ul li:hover a {
+        padding-left: 50px;
+    }
+    .sidebar ul a i {
+        margin-right: 16px;
+    }
+    #check {
+        display: none;
+    }
+    label #btn, label #cancel {
+        position: absolute;
+        cursor: pointer;
+    }
+    label #btn {
+        left: 40px;
+        top: 25px;
+        width: 60px;
+        border-radius: 10px;
+    }
+    label #cancel {
+        left: -195px;
+        top: 17px;
+        width: 25px;
+        z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+        transition: all 0.4s ease;
+    }
+    #check:checked ~ .sidebar {
+        left: 0;
+    }
+    #check:checked ~ label #cancel {
+        left: 195px;
+        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    }
+    #con, .sidebar, .sidebar header, .sidebar ul a, ul li:hover a, .sidebar ul a i, #check, label #btn, label #cancel, #check:checked ~ .sidebar, #check:checked ~ label #cancel {
+        z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999;
+        visibility: visible;
+    }
+    .menutext{
+        font-size: 40px;
+    }
+    #menutext1 {
+        top: 70px;
+    }
+    #menutext2 {
+        top: 130px;
+    }
+    #menutext3 {
+        top: 190px;
+    }
+    #menutext4 {
+        top: 250px;
+    }
+    #smitsv {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+    #searchbar1 {
+        visibility: hidden;
+        position: absolute;
+        left: 1px;
+    }
+}
+.sidebar {
+    height: 100%;
+    visibility: hidden;
+}

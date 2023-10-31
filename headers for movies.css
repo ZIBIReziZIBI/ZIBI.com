@@ -1,0 +1,31 @@
+#filmebiicon {
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+#filmebiicon:hover {
+    width: 50px;
+}
+
+#forkids {
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+#forkids:hover {
+    width: 50px;
+}
+
+#series {
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+#series:hover {
+    width: 50px;
+}
+
+#koleqciebi {
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+#koleqciebi:hover {
+    width: 50px;
+}
